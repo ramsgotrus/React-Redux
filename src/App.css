@@ -17,11 +17,98 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.div-style{
+  border: 5px solid #CCC; 
+  display: inline;
+}
 .App-link {
   color: #61dafb;
 }
+.saving-font {
+  color:red;
+}
+.center{
+  text-align: left;
+}
+.stringStrike{
+  text-decoration: line-through;
+  color: gray;
+  font-size: 12px;
+}
+.savings-font{
+  color:red;
+  padding: 20 px 10 px 10px 10px;
+}
 
+.b-pr{
+  padding-left: 55px;
+}
+.b-pr1{
+  padding-left: 95px;
+}
+.b-pr2{
+  padding-left: 45px;
+}
+.savings-div{
+  display: flex;
+  width: 250px;
+}
+
+
+.column{
+  float: left;
+  width: 50%;
+  padding:5px;
+  height: 50;
+}
+.row{
+  content: "";
+  display: table;
+  clear: both;
+}
+.paragraph{
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 2;
+}
+.itemDetails{
+  display: flex;
+}
+.collapse {
+  display: none
+}
+.container {
+  display: none;
+  position: relative;
+  padding:20px;
+  margin-top: 10px;
+}
+.savings {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.collapse.in {
+  display: block
+}
+ /* Post Styles */
+ .post-container {
+   display: inline-table;
+  background:#fff;
+  align-items: left;
+  justify-content: left;
+  padding:50px;
+  width:50%;
+  margin:40px auto;
+  box-shadow:0 5px 15px 0 rgba(46, 61, 73, 0.12);
+  font-family:'Work Sans',sans-serif;
+  }
+  .form {
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
